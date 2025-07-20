@@ -61,7 +61,7 @@ A full-stack AI-powered web application for classifying kidney CT scan images as
 
 - `app.py` — Flask backend
 - `src/` — React frontend
-- `data/` — Image dataset (not included in repo)
+- `data/` — Image dataset (not included in repo as the dataset is large so download from kaggle)
 - `kidney_stone_cnn_model.h5` — Trained model file
 
 ## License
