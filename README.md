@@ -96,7 +96,7 @@ The `data/` directory contains ~12,000 CT scan images organized by class:
 - **Stone**: 1,377 images
 - **Tumor**: 2,283 images
 
-**Note:** The dataset is excluded from the Git repository due to its large size (~GB). See `data/README.md` for more details.
+**Note:** The whole dataset is excluded from the Git repository due to its large size (~GB). If you need to download the Dataset completly then See `data/README.md` for more details.
 
 ## License
 
