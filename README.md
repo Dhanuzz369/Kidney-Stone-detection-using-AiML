@@ -19,7 +19,12 @@ A full-stack AI-powered web application for classifying kidney CT scan images as
 
 ### Backend Setup
 
-1. Create a virtual environment and activate it:
+1. Navigate to the backend directory:
+   ```
+   cd backend
+   ```
+
+2. Create a virtual environment and activate it:
    ```
    python -m venv venv
    # On Windows:
@@ -28,29 +33,34 @@ A full-stack AI-powered web application for classifying kidney CT scan images as
    source venv/bin/activate
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Run the backend server:
+4. Run the backend server:
    ```
    python app.py
    ```
 
 ### Frontend Setup
 
-1. Install dependencies:
+1. Navigate to the frontend directory:
+   ```
+   cd frontend
+   ```
+
+2. Install dependencies:
    ```
    npm install
    ```
 
-2. Start the frontend:
+3. Start the frontend:
    ```
    npm run dev
    ```
 
-3. Open your browser at [http://localhost:8080](http://localhost:8080)
+4. Open your browser at [http://localhost:5173](http://localhost:5173)
 
 ### Login Credentials
 
@@ -59,10 +69,26 @@ A full-stack AI-powered web application for classifying kidney CT scan images as
 
 ## Project Structure
 
-- `app.py` — Flask backend
-- `src/` — React frontend
-- `data/` — Image dataset (not included in repo as the dataset is large so download from kaggle)
-- `kidney_stone_cnn_model.h5` — Trained model file
+```
+kidney-stone-analyzer/
+├── backend/
+│   ├── app.py                    # Flask backend server
+│   ├── train_model.py           # Model training script
+│   ├── kidney_stone_cnn_model.h5 # Trained model file
+│   ├── class_labels.json       # Class labels for predictions
+│   ├── requirements.txt        # Python dependencies
+│   └── samples/                # Sample images for testing
+├── frontend/
+│   ├── src/
+│   │   ├── components/         # React components
+│   │   └── pages/             # React pages
+│   ├── package.json           # Node.js dependencies
+│   └── ...                    # Other frontend config files
+├── README.md
+└── LICENSE
+```
+
+**Note:** The full dataset is not included in the repo due to size. Download from Kaggle if needed for training.
 
 ## License
 
