@@ -27,12 +27,9 @@ This dataset is used by:
 
 ## Note
 
-Due to the large size of this dataset (~GB), it's excluded from the Git repository by default. 
-If you need to share the dataset:
+Due to the large size of this dataset (~GB), it's excluded from the Git repository by default and only sample X-ray images from Normal, Stone, Cyst, and Tumor are present in this folder.
 
-1. Upload to cloud storage (Google Drive, AWS S3, etc.)
-2. Or use Git LFS for large file storage
-3. Or provide download instructions in the main README
+If you need the whole datset for model training and predictions then you can use this link for downloading the dataset:https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
 
 ## Dataset Statistics
 
