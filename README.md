@@ -88,7 +88,15 @@ kidney-stone-analyzer/
 └── LICENSE
 ```
 
-**Note:** The full dataset is not included in the repo due to size. Download from Kaggle if needed for training.
+## Dataset
+
+The `data/` directory contains ~12,000 CT scan images organized by class:
+- **Cyst**: 3,709 images
+- **Normal**: 5,077 images  
+- **Stone**: 1,377 images
+- **Tumor**: 2,283 images
+
+**Note:** The dataset is excluded from the Git repository due to its large size (~GB). See `data/README.md` for more details.
 
 ## License
 

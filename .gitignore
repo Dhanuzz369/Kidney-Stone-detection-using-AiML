@@ -44,7 +44,8 @@ Thumbs.db
 *.sln
 *.sw?
 
-# Data (large datasets)
+# Data (large datasets) - exclude from repo due to size
+# Uncomment the line below if you want to include the dataset in the repo
 data/
 dataset/
 
